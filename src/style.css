@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Floripa";
+    src:  local("Floripa"),
+          url(../fonts/Floripa.woff2) format("woff2"),
+          url(../fonts/Floripa.woff) format("woff");
+  }
+  @font-face {
+    font-family: "Mulish";
+    src:  url(../fonts/Mulish.woff2) format("woff2"),
+          url(../fonts/Mulish.woff) format("woff");
+  }
+  h1 {
+    position: absolute;
+    font-family: "Floripa", sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    left: 5%;
+    top: 25%;
+    color: white;
+  
+  }
+  .header-top {
+    background: url(src/fon2.jpg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+  }
+  .header-top-menu_list {
+    position: absolute;
+    right: 1%;
+    display: flex;
+    flex-grow: 1;
+    padding: 0;
+    margin: 0 auto 0 0;
+    list-style: none;
+  }
+  .header-top-menu_el {
+    position: relative;
+    display: flex;
+    margin-right: 22px;
+    font-family: "Mulish", sans-serif;
+    font-size: 22px;
+    color: black;
+  }
+  .selection {
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+  }
+  .selection-text {
+    font-family: "Mulish", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .selection-blocks {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .selection-blocks_el {
+    background-color: rgb(68, 78, 254);
+    padding: 30px 15px 30px 15px;
+    border-radius: 10px;
+    margin: 0 20px;
+    width: 300px;
+    height: 130px;
+  }
+  .selection-blocks_el:first-child {
+    background-color: rgb(136, 142, 255);
+  }
+  .selection-blocks_el:last-child {
+    background-color: rgb(136, 142, 255);
+  }
+  .selection-blocks_text {
+    font-size: 20px;
+    font-family: "Floripa", sans-serif;
+    color: white;
+    position: relative;
+    top: 40px;
+    overflow-wrap: break-word;
+  }
+  .left-arrow {
+    position: absolute;
+    width: 3%;
+    left: 10%;
+    top: 50%;
+  }
+  .right-arrow {
+    position: absolute;
+    width: 3%;
+    left: 87%;
+    top: 50%;
+  }
+  /* .profile {
+    border: white;
+    background-color: rgb(68, 77, 255);
+    position: relative;
+    top: 5px;
+    left: 1870px;
+  }
+  .shapka {
+    position: relative;
+    width: 1920px;
+    height: 35px;
+    right: 8px;
+    top: -8px;
+    background-color: rgb(68, 77, 255);
+  } */
