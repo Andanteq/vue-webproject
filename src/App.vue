@@ -32,6 +32,24 @@
     <input type="search" placeholder="Поиск">
     <button class="search-button">Найти</button>
   </div>
+  <div class="sort">
+    <!-- селекты не очень удобные, можно заменить https://habr.com/ru/articles/442888/ -->
+    <select class="select-el" name="sort-by-salary">
+      <option value="">Сортировка по зарплате</option>
+      <option value="less">Сперва низкая</option>
+      <option value="more">Сперва высокая</option>
+      <option value="reset">Сброс</option>
+    </select>
+    <select class="select-el" name="sort-by-job">
+      <option value="">Сортировка по должности</option>
+      <option value="designer">Дизайнер</option>
+      <option value="developer">Разработчик</option>
+      <option value="programmer">Программист</option>
+    </select>
+    <select class="select-el" name="sort-by-time">
+      <!-- хз что тут писать -->
+    </select>
+  </div>
   <!-- <div class="shapka">
     <button class="profile" type="button" @mousedown="methods">
       <img src="./icon.png"/>

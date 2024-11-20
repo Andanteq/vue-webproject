@@ -129,6 +129,26 @@
     font-family: "Mulish", sans-serif;
     color: white;
   }
+  .sort {
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+  }
+  .select-el {
+    border: 0;
+    border-radius: 15px;
+    height: 30px;
+    width: 200px;
+    background-color:rgb(136, 142, 255);
+    margin: 0 30px;
+    color: white;
+  }
+  .select-el:focus {
+    background-color: rgb(68, 78, 254);
+  }
   /* .profile {
     border: white;
     background-color: rgb(68, 77, 255);
