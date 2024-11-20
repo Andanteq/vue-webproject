@@ -109,6 +109,26 @@
     font-weight: bold;
     font-size: 40px;
   }
+  input[type="search"] {
+    border: 0;
+    border-radius: 15px;
+    background: rgb(224, 224, 224);
+    height: 30px;
+    width: 500px;
+    margin: 30px 20px;
+    font-size: 14px;
+    font-family: "Mulish", sans-serif;
+  }
+  .search-button {
+    border: 0;
+    border-radius: 15px;
+    background-color: rgb(68, 78, 254);
+    height: 30px;
+    width: 80px;
+    font-size: 14px;
+    font-family: "Mulish", sans-serif;
+    color: white;
+  }
   /* .profile {
     border: white;
     background-color: rgb(68, 77, 255);

@@ -29,6 +29,8 @@
   </div>
   <div class="search">
     <div class="search-text">ПОИСК ВАКАНСИЙ</div>
+    <input type="search" placeholder="Поиск">
+    <button class="search-button">Найти</button>
   </div>
   <!-- <div class="shapka">
     <button class="profile" type="button" @mousedown="methods">
