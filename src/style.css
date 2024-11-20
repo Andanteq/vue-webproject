@@ -96,6 +96,19 @@
     left: 87%;
     top: 50%;
   }
+  .search {
+    position: absolute;
+    top: 165%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+  }
+  .search-text {
+    font-family: "Mulish", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
   /* .profile {
     border: white;
     background-color: rgb(68, 77, 255);
